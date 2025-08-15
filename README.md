@@ -3,7 +3,7 @@
 #include <vector>
 using namespace std;
 
-void short_arr(vector<int>& arr) {
+void sort_arr(vector<int>& arr) {
     int low = 0;
     int mid = 0;
     int high = arr.size() - 1;
@@ -25,7 +25,7 @@ void short_arr(vector<int>& arr) {
 int main() {
     vector<int> arr = {2, 0, 1, 2, 1, 0, 1};
 
-    short_arr(arr);
+    sort_arr(arr);
 
     cout << "Sorted array: ";
     for (int num : arr) {
