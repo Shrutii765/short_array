@@ -1,4 +1,4 @@
-# short_array
+# sort_array
 #include <iostream>
 #include <vector>
 using namespace std;
